@@ -1,0 +1,16 @@
+diff --git a/package.json b/package.json
+index a6a6077..fac2972 100644
+--- a/package.json
++++ b/package.json
+@@ -27,11 +27,6 @@
+       "import": "./dist/esm/index.js",
+       "default": "./dist/cjs/index.js"
+     },
+-    "./.index": {
+-      "types": "./dist/dts/.index.d.ts",
+-      "import": "./dist/esm/.index.js",
+-      "default": "./dist/cjs/.index.js"
+-    },
+     "./Arbitrary": {
+       "types": "./dist/dts/Arbitrary.d.ts",
+       "import": "./dist/esm/Arbitrary.js",
